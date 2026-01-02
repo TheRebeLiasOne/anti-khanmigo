@@ -1,0 +1,11 @@
+! Title: Anti-Khanmigo
+! Description: Block Khanmigo on Student Accounts
+! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
+! Expires: 2 days (update frequency)
+! Version: 2 January 2025
+! Syntax: Adblock
+
+khanacademy.org##[data-testid="khanmigo-clickable"]
+khanacademy.org##[aria-label="Open Khanmigo chat window"]
+khanacademy.org##[data-testid="khanmigo-sidebar"]
+||khanacademy.org/profile/me/khanmigo/*^$document
