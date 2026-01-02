@@ -3,7 +3,7 @@
 ! Description: Block Khanmigo on Student Accounts
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
 ! Expires: 2 days (update frequency)
-! Version: 2 January 2025
+! Version: 1
 
 khanacademy.org##[data-testid="khanmigo-clickable"]
 khanacademy.org##[aria-label="Open Khanmigo chat window"]
