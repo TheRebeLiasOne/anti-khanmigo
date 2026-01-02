@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: Anti-Khanmigo
 ! Description: Block Khanmigo on Student Accounts
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
