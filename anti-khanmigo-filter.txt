@@ -3,18 +3,20 @@
 ! Description: Block Khanmigo on Student Accounts
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
 ! Expires: 1 day (update frequency)
-! Version: 2
+! Version: 3
 
-! Nav Bar Button
+! Nav Bar Button 
 khanacademy.org##[data-testid="khanmigo-clickable"]
+khanacademy.org##[href="https://khanmigo.ai/teachers"]
 
 ! Sidebar in Khan Activities. 
 khanacademy.org##[aria-label="Open Khanmigo chat window"]
 khanacademy.org##[data-testid="khanmigo-sidebar"]
 
-! Khanmigo activities (unsupported on ABP. slightly broken on UBO, 
+! Khanmigo activities and website (unsupported on ABP. slightly broken on UBO, 
 ! low priority fix as links to this hopefully won't appear in the first place)
 ||khanacademy.org/profile/me/khanmigo/*^$document
+||khanmigo.ai/*^$document
 
 ! Learner Home Sidebar ("Khanmigo" section still displays for now but is empty)
 khanacademy.org##[href="/profile/me/khanmigo/activities"]
