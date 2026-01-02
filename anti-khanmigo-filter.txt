@@ -8,4 +8,4 @@
 khanacademy.org##[data-testid="khanmigo-clickable"]
 khanacademy.org##[aria-label="Open Khanmigo chat window"]
 khanacademy.org##[data-testid="khanmigo-sidebar"]
-
+||khanacademy.org/profile/me/khanmigo/*^$document
