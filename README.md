@@ -22,15 +22,15 @@ I'm still working on these filters, so not everything may be blocked yet. This i
 ### uBlock Origin
 *uBO Lite instructions coming soon*. 
 1. Click on the extension in your toolbar, and from the popout, click the cogwheels.
-2. Navigate to "filter lists" (not "my filters") tab
-3. Scroll to the bottom and click "Import"
+2. Navigate to "filter lists" (not "my filters") tab.
+3. Scroll to the bottom and click "Import".
 4. Paste the link: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt
-5. Click "Apply Changes"
+5. Click "Apply Changes".
 6. You're done! It should show up in the "Custom" section on the filters page.
 
 ### AdBlock Plus
 1. Click on the extension and click the cogwheel in the popout.
 2. On the left of the page, choose "Advanced".
-3. Scroll down and click "Add Filter List by URL"
-4. Paste the link: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt
+3. Scroll down and click "Add Filter List by URL".
+4. Paste the link: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt.
 5. You're done! It should be in the list alongside the default filters.
