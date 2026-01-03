@@ -51,3 +51,6 @@ A nice, FOSS alternative to uBlock Origin that still works on Chrome. Seemingly 
 6. Paste https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt and click "Next".
 7. Check the "Trusted" box if desired.
 8. You're Done! The filter should appear in the custom list. 
+
+## Known Issues
+The "Tutor Me" button still appears when getting a quiz question incorrect. Clicking it does nothing, though. 
