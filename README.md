@@ -23,7 +23,7 @@ To also hide AI suggestions in search engines, you can use [Fanboy's Anti-AI Sug
 (I don't know Fanboy in any capacity, I'm just happy this exists. Not forking it because I can't be trusted to keep it up to date.)
 
 ## Installation
-**I always recommend using uBO and Firefox**. I've included instructions for AdBlock Plus as well, as it's installed by default on school computers and therefore most convenient, and uBO isn't usable on Chrome (thanks, Google). AdGuard instructions coming soon. 
+**I always recommend using uBO and Firefox**. I've included instructions for AdBlock Plus as well, as it's installed by default on my school's computers and therefore most convenient, and uBO isn't usable on Chrome (thanks, Google). If you're set on Chrome, I recommend AdGuard. 
 
 ### uBlock Origin
 *uBlock Origin Lite isn't supported right now. You can add it manually, but YMMV.* 
