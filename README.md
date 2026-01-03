@@ -41,7 +41,7 @@ To also hide AI suggestions in search engines, you can use [Fanboy's Anti-AI Sug
 4. Paste the link: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt, then choose "Add a Filter List". 
 6. You're done! It should be in the list alongside the default filters.
 
-## AdGuard
+### AdGuard
 A nice, FOSS alternative to uBlock Origin that still works on Chrome. Seemingly more customizable than uBO Lite. 
 1. Open AdGuard. From the extension popout, click the cogwheel.
 2. On the left, click "Filters"
