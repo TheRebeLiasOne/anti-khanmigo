@@ -2,8 +2,8 @@
 ! Title: Anti-Khanmigo
 ! Description: Block Khanmigo on Student Accounts
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
-! Expires: 1 day (update frequency)
-! Version: 3
+! Expires: 3 days (update frequency)
+! Version: 4
 
 ! Nav Bar Button 
 khanacademy.org##[data-testid="khanmigo-clickable"]
@@ -22,3 +22,21 @@ khanacademy.org##[data-testid="khanmigo-sidebar"]
 khanacademy.org##[href="/profile/me/khanmigo/activities"]
 khanacademy.org##[href="/profile/me/khanmigo/history"]
 khanacademy.org##[href="/profile/me/khanmigo/settings"]
+
+! AI courses under "Life Skills" (gross) in explore menu.
+
+khanacademy.org##[href="/college-careers-more/khanmigo-for-students"]
+khanacademy.org##[href="/college-careers-more/ai-for-education"]
+
+! Entire "Introducing Khanmigo" course
+
+||khanacademy.org/college-careers-more/khanmigo-for-students^$document
+||khanacademy.org/college-careers-more/ai-for-education^$document
+
+! AI courses in full life skills page. (Note: if they update these descriptions, the filter will break.)
+
+khanacademy.org##._acs4z7h:has(span:has-text(/^Khanmigo is an AI-powered tutor and teaching assistant hand-crafted by the learning experts at Khan Academy. This short course is designed to help students use this tool effectively to support their growth and have fun!/))
+khanacademy.org##._acs4z7h:has(span:has-text(/^Khan Academy believes that AI and Large Language Models hold the potential to transform education. By providing teachers and students resources and tools to design joyful, personalized, interactive, engaging learning experiences that drive deep learning in the months and years ahead, we hope to become a trusted partner in this learning journey./))
+
+! Khanmigo for Educators under Khan for Educators in Explore menu.
+khanacademy.org##[href="/khanmigo-for-educators"]
