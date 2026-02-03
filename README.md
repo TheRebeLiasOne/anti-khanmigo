@@ -27,6 +27,8 @@ To also hide AI suggestions in search engines, you can use [Fanboy's Anti-AI Sug
 ## Installation
 **I always recommend using uBO and Firefox or the AdGuard extension on Chrome**. I've included instructions for AdBlock Plus as well, as it's installed by default on my school's computers and therefore most convenient, and uBO isn't usable on Chrome (thanks, Google) while most schools have it. I don't recommend uBO Lite for custom filters; it has partial support but can't update them automatically.  
 
+For details on why AdBlock Plus is *not* recommended, see [Why not AdBlock Plus?](https://github.com/TheRebeLiasOne/anti-khanmigo/blob/main/Why%20not%20ABP.md)
+
 ### uBlock Origin
 *These instructions won't work on uBO Lite*
 1. Click on the extension in your toolbar, and from the popout, click the cogwheels.
