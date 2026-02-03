@@ -7,14 +7,16 @@ uBlock Origin/AdBlock Plus filter to block Khanmigo crap on school accounts. Nor
 I'm still working on these filters, so not everything may be blocked yet. This is my first time making a filter, so apologies if it looks duct taped together.
 
 ## What it Blocks
-* Khanmigo sidebar in lessons
+* Khanmigo sidebar in lessons, videos, and 
 * Khanmigo link in nav bar
 * Khanmigo section in Learner Home sidebar
-* The entire Khanmigo activities page (slightly broken; won't work on AdBlock Plus)
+* The entire Khanmigo activities page
+* Khanmigo courses under "Life Skills" and "Khan for Educators"
 
 ### Not blocked
 * Khanmigo tab in user settings (in case they do enable the ability to configure it)
 * Some less "in your face" entrypoints may not be filtered yet.
+* The "Tutor Me" button when incorrectly answering a question may still appear, but clicking it does nothing.
 
 ## Optional: Fanboy's Anti-AI Suggestions List
 
@@ -23,10 +25,10 @@ To also hide AI suggestions in search engines, you can use [Fanboy's Anti-AI Sug
 (I don't know Fanboy in any capacity, I'm just happy this exists. Not forking it because I can't be trusted to keep it up to date.)
 
 ## Installation
-**I always recommend using uBO and Firefox**. I've included instructions for AdBlock Plus as well, as it's installed by default on my school's computers and therefore most convenient, and uBO isn't usable on Chrome (thanks, Google). If you're set on Chrome, I recommend AdGuard. 
+**I always recommend using uBO and Firefox or the AdGuard extension on Chrome**. I've included instructions for AdBlock Plus as well, as it's installed by default on my school's computers and therefore most convenient, and uBO isn't usable on Chrome (thanks, Google) while most schools have it. I don't recommend uBO Lite for custom filters; it has partial support but can't update them automatically.  
 
 ### uBlock Origin
-*uBlock Origin Lite isn't supported right now. You can add it manually, but YMMV.* 
+*These instructions won't work on uBO Lite*
 1. Click on the extension in your toolbar, and from the popout, click the cogwheels.
 2. Navigate to "filter lists" (not "my filters") tab.
 3. Scroll to the bottom and click "Import".
@@ -34,23 +36,25 @@ To also hide AI suggestions in search engines, you can use [Fanboy's Anti-AI Sug
 6. Click "Apply Changes".
 7. You're done! It should show up in the "Custom" section on the filters page.
 
+**To update:** Should update automatically. If you ever wish to check, navigate to the filters page and find the filter in your list then click the clock icon. (If there's a loading icon, it's already in the process of updating). 
+
+### AdGuard
+1. Open AdGuard. From the extension popout, click the cogwheel.
+2. On the left, click "Filters".
+3. Scroll to the bottom and enable "Custom".
+   *If prompted to allow user scripts*: Click the link to your browser's extension settings and toggle "Allow User Scripts".
+5. Now click on "Custom", and choose "Add Custom Filter".
+6. Paste https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt and click "Next".
+7. Check the "Trusted" box if desired, then click "Add".
+8. You're Done! The filter should appear in the custom list.
+
+**To update:** open the extension popout then click the clockwise arrows at the top to check (it'll check for all enabled filters). If it's already checked, it may show as a green up arrow instead. AdGuard might not automatically install updates so it's important to check every once in a while.
+
 ### AdBlock Plus
-1. Click on the extension and click the cogwheel in the popout.
+1. Click on the extension and click the cogwheel (settings) icon in the popout.
 2. On the left of the page, choose "Advanced".
 3. Scroll down and click "Add Filter List by URL".
 4. Paste the link: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt, then choose "Add a Filter List". 
 6. You're done! It should be in the list alongside the default filters.
 
-### AdGuard
-A nice, FOSS alternative to uBlock Origin that still works on Chrome. Seemingly more customizable than uBO Lite. 
-1. Open AdGuard. From the extension popout, click the cogwheel.
-2. On the left, click "Filters"
-3. Enable "Custom"
-4. *If prompted to allow user scripts*: Click the link to your browser's extension settings and toggle "Allow User Scripts"
-5. Now click on "Custom", and choose "Add Custom Filter".
-6. Paste https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt and click "Next".
-7. Check the "Trusted" box if desired.
-8. You're Done! The filter should appear in the custom list. 
-
-## Known Issues
-The "Tutor Me" button still appears when getting a quiz question incorrect. Clicking it does nothing, though. 
+**To update:** Revisit the "Advanced" page and find the filter, then click the cogwheel (settings) icon next to the filter and choose "Update Now". 
