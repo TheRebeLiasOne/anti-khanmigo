@@ -3,7 +3,7 @@
 ! Description: Block Khanmigo on Student Accounts
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
 ! Expires: 3 days (update frequency)
-! Version: 4
+! Version: 5
 
 ! Nav Bar Button 
 khanacademy.org##[data-testid="khanmigo-clickable"]
@@ -40,3 +40,6 @@ khanacademy.org##._acs4z7h:has(span:has-text(/^Khan Academy believes that AI and
 
 ! Khanmigo for Educators under Khan for Educators in Explore menu.
 khanacademy.org##[href="/khanmigo-for-educators"]
+
+! Khanmigo Tutor Me Button
+khanacademy.org##button:has(span:has-text("Tutor Me"))
