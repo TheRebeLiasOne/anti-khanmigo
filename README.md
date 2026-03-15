@@ -12,11 +12,11 @@ I'm still working on these filters, so not everything may be blocked yet. This i
 * Khanmigo section in Learner Home sidebar
 * The entire Khanmigo activities page
 * Khanmigo courses under "Life Skills" and "Khan for Educators"
+* The "Tutor Me" button when incorrectly answering a question
 
 ### Not blocked
 * Khanmigo tab in user settings (in case they do enable the ability to configure it)
 * Some less "in your face" entrypoints may not be filtered yet.
-* The "Tutor Me" button when incorrectly answering a question may still appear, but clicking it does nothing.
 
 ## Optional: Fanboy's Anti-AI Suggestions List
 
