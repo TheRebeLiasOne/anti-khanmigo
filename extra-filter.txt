@@ -1,0 +1,9 @@
+[Adblock Plus 2.0]
+! Title: Lia's Extra Anti-AI
+! Description: Filters unrelated to Khanmigo, but annoying enough for me to create a filter for. 
+! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
+! Expires: 1 day (update frequency)
+! Version: 1
+
+! YouTube Gemini
+youtube.com##button[aria-label="Ask"]
