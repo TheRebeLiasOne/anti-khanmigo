@@ -60,3 +60,12 @@ For details on why AdBlock Plus is *not* recommended, see [Why not AdBlock Plus?
 6. You're done! It should be in the list alongside the default filters.
 
 **To update:** Revisit the "Advanced" page and find the filter, then click the cogwheel (settings) icon next to the filter and choose "Update Now". 
+
+
+## Extra Filter
+The extra filter is just things that I was annoyed enough to create a filter for that aren't related to Khanmigo. You can use it, but know that this is mostly for me so probably won't encompass every website you use. 
+
+Currently filters:
+
+- "Ask" button in YouTube. (Just watch the video for Christ's sake...)
+
