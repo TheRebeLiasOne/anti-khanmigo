@@ -34,6 +34,7 @@ khanacademy.org##[href="/college-careers-more/ai-for-education"]
 ||khanacademy.org/college-careers-more/ai-for-education^$document
 
 ! AI courses in full life skills page. (Note: if they update these descriptions, the filter will break.)
+! TODO: change this to something that's not hashed/random classes, for potential longevity. 
 
 khanacademy.org##._acs4z7h:has(span:has-text(/^Khanmigo is an AI-powered tutor and teaching assistant hand-crafted by the learning experts at Khan Academy. This short course is designed to help students use this tool effectively to support their growth and have fun!/))
 khanacademy.org##._acs4z7h:has(span:has-text(/^Khan Academy believes that AI and Large Language Models hold the potential to transform education. By providing teachers and students resources and tools to design joyful, personalized, interactive, engaging learning experiences that drive deep learning in the months and years ahead, we hope to become a trusted partner in this learning journey./))
