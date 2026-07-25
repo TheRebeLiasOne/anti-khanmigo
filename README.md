@@ -1,4 +1,8 @@
 # anti-khanmigo
+
+> [!IMPORTANT]
+> Khan Academy "Reimagined" might've broke parts of this filter. Please stand by while it gets updated. 
+
 uBlock Origin/AdBlock Plus filter to block Khanmigo crap on school accounts. Normally impossible to disable, as the settings page says that it can't be managed by people under 18. 
 
 This only blocks Khanmigo! If you want to block other things, I'd recommend checking out [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt). To add it, follow the same instructions listed below, but add https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt in addition to my link. 
