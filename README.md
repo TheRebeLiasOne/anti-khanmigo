@@ -1,7 +1,7 @@
 # anti-khanmigo
 
 > [!IMPORTANT]
-> Khan Academy "Reimagined" might've broke parts of this filter. Please stand by while it gets updated. 
+> Khan Academy "Reimagined" broke this filter. It will no longer be updated. An Anti-Khanmigo Reimagined will be released in the hopefully not to distant future. 
 
 uBlock Origin/AdBlock Plus filter to block Khanmigo crap on school accounts. Normally impossible to disable, as the settings page says that it can't be managed by people under 18. 
 
