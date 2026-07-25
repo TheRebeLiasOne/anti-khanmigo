@@ -25,6 +25,11 @@ I'm still working on these filters, so not everything may be blocked yet. This i
 * Some less "in your face" entrypoints may not be filtered yet.
 
 ## Installation
+
+### Quick Install
+
+[Use this link to install](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FTheRebeLiasOne%2Fanti-khanmigo%2Frefs%2Fheads%2Fmain%2Fanti-khanmigo-filter.txt&amp;title=Anti%20Khanmigo%20Legacy&amp;requiresLocation=https%3A%2F%2Fraw.githubusercontent.com%2FTheRebeLiasOne%2Fanti-khanmigo-reimagined%2Frefs%2Fheads%2Fmain%2Fanti-khanmigo-reimagined.txt&amp;requiresTitle=Anti%20Khanmigo%20Reimagined). Depending on your adblocker, this may also add the Reimagined filter. If it doesn't, add it in the [new repo](https://github.com/TheRebeLiasOne/anti-khanmigo-reimagined).
+
 **I always recommend using uBO and Firefox or the AdGuard extension on Chrome**. I've included instructions for AdBlock Plus as well, as it's installed by default on my school's computers and therefore most convenient, and uBO isn't usable on Chrome (thanks, Google) while most schools have it. I don't recommend uBO Lite for custom filters; it has partial support but can't update them automatically.  
 
 For details on why AdBlock Plus is *not* recommended, see [Why not AdBlock Plus?](https://github.com/TheRebeLiasOne/anti-khanmigo/blob/main/Why%20not%20ABP.md)
