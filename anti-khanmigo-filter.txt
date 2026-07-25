@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Title: Anti-Khanmigo
-! Description: Block Khanmigo on Student Accounts
+! Title: Anti-Khanmigo Legacy
+! Description: Blocks Khanmigo on the old UI. Deprecated, see homepage.
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
-! Expires: 3 days (update frequency)
-! Version: 5
+! Expires: 30 days (update frequency)
+! Version: 6
 
 ! Nav Bar Button 
 khanacademy.org##[data-testid="khanmigo-clickable"]
